@@ -1,0 +1,31 @@
+.header{
+    background: $clr-dark;
+    padding: 1rem 0;
+    .branding{
+        h3{
+            color: $clr-light;
+        }
+    }
+    &-nav{
+        ul{
+            li{
+                a{
+                    color: $clr-light;
+                }
+            }
+        }
+    }
+    .toggle-menu{
+        span{
+            width: 2.5rem;
+            height: .3rem;
+            background-color: $clr-light;
+            border-radius: 5rem;
+            display: block;
+            &:nth-child(2){
+                margin: .5rem 0;
+            }
+        }
+    }
+
+}
